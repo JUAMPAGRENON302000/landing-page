@@ -1,0 +1,224 @@
+╔══════════════════════════════════════════════════════════════════╗
+║       ESTRUCTURA DE CARPETAS - CÓMO ORGANIZARLAS                ║
+╚══════════════════════════════════════════════════════════════════╝
+
+
+ESTRUCTURA FINAL DESEADA:
+═════════════════════════
+
+mi-tienda-cosmeticos/
+│
+├── index.html                          (la página principal)
+├── README.md                           (instrucciones)
+├── CONFIGURACION.txt                   (este archivo de config)
+│
+└── imagenes/                           (CARPETA IMPORTANTE)
+    │
+    ├── maquillaje/                     (categoría 1)
+    │   ├── base.jpg
+    │   ├── labial.jpg
+    │   ├── sombras.jpg
+    │   └── rimel.jpg
+    │
+    ├── cuidado/                        (categoría 2)
+    │   ├── crema.jpg
+    │   ├── limpiador.jpg
+    │   ├── serum.jpg
+    │   └── mascarilla.jpg
+    │
+    ├── fragancias/                     (categoría 3)
+    │   ├── perfume-floral.jpg
+    │   ├── colonia.jpg
+    │   └── perfume-maderas.jpg
+    │
+    └── cuerpo/                         (categoría 4)
+        ├── locion.jpg
+        └── gel.jpg
+
+
+
+PASO A PASO: CÓMO CREAR LAS CARPETAS
+════════════════════════════════════
+
+EN WINDOWS:
+──────────
+1. Descarga el ZIP y extrae en una carpeta
+2. Dentro de esa carpeta, CREA UNA CARPETA llamada "imagenes"
+3. Dentro de "imagenes", CREA 4 CARPETAS:
+   - maquillaje
+   - cuidado
+   - fragancias
+   - cuerpo
+
+EN MAC:
+──────
+Lo mismo que Windows:
+1. Extrae el ZIP
+2. Crea carpeta "imagenes"
+3. Crea las 4 carpetas adentro
+
+EN LINUX:
+─────────
+Lo mismo que Windows y Mac
+
+Alternativamente desde terminal:
+mkdir -p imagenes/{maquillaje,cuidado,fragancias,cuerpo}
+
+
+
+CÓMO AGREGAR IMÁGENES
+═════════════════════
+
+1. Toma tus fotos de productos
+2. Convierte a .jpg (puedes usar herramientas online gratuitas)
+3. Renómbralas EXACTAMENTE así:
+   - base.jpg
+   - labial.jpg
+   - sombras.jpg
+   - etc.
+
+⚠️ CUIDADO CON LOS NOMBRES:
+   ✓ base.jpg       (correcto)
+   ✓ labial.jpg     (correcto)
+   ✓ archivo.jpg    (correcto)
+   
+   ✗ Base.jpg       (INCORRECTO - mayúscula)
+   ✗ LABIAL.JPG     (INCORRECTO - mayúsculas)
+   ✗ archivo.JPG    (INCORRECTO - extensión)
+   ✗ archivo.jpeg   (INCORRECTO - extensión)
+
+4. Arrastra los archivos a la carpeta correspondiente:
+   - Fotos de maquillaje → carpeta maquillaje
+   - Fotos de cuidado → carpeta cuidado
+   - etc.
+
+
+
+CORRESPONDENCIA: CÓDIGO ↔ CARPETA
+════════════════════════════════
+
+En el código (index.html) verás esto:
+
+image: './imagenes/maquillaje/base.jpg'
+
+Esto significa:
+- Carpeta: imagenes/
+- Subcarpeta: maquillaje/
+- Archivo: base.jpg
+
+
+Entonces tu archivo DEBE estar en:
+imagenes/ → maquillaje/ → base.jpg
+
+
+TABLA DE CORRESPONDENCIA:
+═════════════════════════
+
+CATEGORÍA: MAQUILLAJE
+├── base.jpg              → ./imagenes/maquillaje/base.jpg
+├── labial.jpg            → ./imagenes/maquillaje/labial.jpg
+├── sombras.jpg           → ./imagenes/maquillaje/sombras.jpg
+└── rimel.jpg             → ./imagenes/maquillaje/rimel.jpg
+
+CATEGORÍA: CUIDADO
+├── crema.jpg             → ./imagenes/cuidado/crema.jpg
+├── limpiador.jpg         → ./imagenes/cuidado/limpiador.jpg
+├── serum.jpg             → ./imagenes/cuidado/serum.jpg
+└── mascarilla.jpg        → ./imagenes/cuidado/mascarilla.jpg
+
+CATEGORÍA: FRAGANCIAS
+├── perfume-floral.jpg    → ./imagenes/fragancias/perfume-floral.jpg
+├── colonia.jpg           → ./imagenes/fragancias/colonia.jpg
+└── perfume-maderas.jpg   → ./imagenes/fragancias/perfume-maderas.jpg
+
+CATEGORÍA: CUERPO
+├── locion.jpg            → ./imagenes/cuerpo/locion.jpg
+└── gel.jpg               → ./imagenes/cuerpo/gel.jpg
+
+
+
+SI QUIERES CAMBIAR LOS NOMBRES DE LAS IMÁGENES
+═══════════════════════════════════════════════
+
+Ejemplo: Quiero que se llame "crema-hidratante.jpg" en vez de "crema.jpg"
+
+1. Renombra tu archivo a: crema-hidratante.jpg
+2. Abre index.html con editor de texto
+3. Busca: './imagenes/cuidado/crema.jpg'
+4. Reemplaza por: './imagenes/cuidado/crema-hidratante.jpg'
+5. Guarda los cambios
+6. ¡Listo!
+
+
+TIPOS DE ARCHIVO SOPORTADOS
+════════════════════════════
+
+✓ .jpg       (recomendado - tamaño pequeño)
+✓ .jpeg      (igual que jpg)
+✓ .png       (buena calidad, puede ser más pesado)
+✓ .webp      (muy comprimido, moderno)
+
+✗ .bmp       (no usar - muy pesado)
+✗ .gif       (no usar - poca calidad)
+✗ .tiff      (no usar - muy pesado)
+
+
+CONSEJOS PARA LAS IMÁGENES
+══════════════════════════
+
+1. TAMAÑO:
+   - Ideal: 500x500 píxeles o más
+   - Mínimo: 300x300 píxeles
+   
+2. PESO:
+   - Máximo: 1-2 MB por imagen
+   - Recomendado: 200-500 KB
+   - Para comprimir: tinypng.com (gratis)
+
+3. FORMATO:
+   - USA .jpg para fotos realistas
+   - USA .png si necesitas fondo transparente
+
+4. NOMBRES:
+   - Sin espacios
+   - Sin caracteres especiales (á, é, ñ, etc.)
+   - Solo minúsculas
+   - Ej: base.jpg (no "Base de Maquillaje.jpg")
+
+
+VERIFICAR QUE ESTÁ CORRECTO
+════════════════════════════
+
+Antes de publicar, comprueba:
+
+1. ¿Existe la carpeta "imagenes"? ✓
+2. ¿Existen las 4 subcarpetas? ✓
+   - maquillaje
+   - cuidado
+   - fragancias
+   - cuerpo
+3. ¿Las imágenes tienen el nombre correcto? ✓
+4. ¿Los nombres coinciden exactamente con el código? ✓
+5. ¿Las imágenes están en la carpeta correcta? ✓
+
+Si todo está ✓, abre index.html y ¡debería funcionar!
+
+
+TROUBLESHOOTING: LAS IMÁGENES NO APARECEN
+══════════════════════════════════════════
+
+1. Presiona F12 en el navegador (abre "Developer Tools")
+2. Ve a la pestaña "Console"
+3. Busca mensajes de error
+4. Revisa:
+   - ¿El nombre del archivo es exactamente igual?
+   - ¿La extensión es .jpg o .png?
+   - ¿La carpeta existe en el lugar correcto?
+   - ¿El nombre de la carpeta es exactamente "imagenes"?
+
+5. Intenta refrescar con Ctrl+F5 (limpia caché)
+
+
+═════════════════════════════════════════════════════════════════
+¡Listo! Ya sabes cómo organizarlo 📁
+═════════════════════════════════════════════════════════════════
