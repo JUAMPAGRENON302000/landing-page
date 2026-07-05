@@ -39,189 +39,189 @@
       "categoryId": "banderas",
       "title": "Banderas 1",
       "description": "Producto premium de CR Sublimaciones",
-      "image": "./imagenes/banderas/Banderas-1.jpeg"
+      "image": "/landing-page/imagenes/banderas/Banderas-1.jpeg"
     },
     {
       "id": 2,
       "categoryId": "cuadros",
       "title": "Cuadros 1",
       "description": "Producto premium de CR Sublimaciones",
-      "image": "./imagenes/cuadros/Cuadros-1.jpeg"
+      "image": "/landing-page/imagenes/cuadros/Cuadros-1.jpeg"
     },
     {
       "id": 3,
       "categoryId": "cuadros",
       "title": "Cuadros 2",
       "description": "Producto premium de CR Sublimaciones",
-      "image": "./imagenes/cuadros/Cuadros-2.jpeg"
+      "image": "/landing-page/imagenes/cuadros/Cuadros-2.jpeg"
     },
     {
       "id": 4,
       "categoryId": "gorras",
       "title": "Gorras 1",
       "description": "Producto premium de CR Sublimaciones",
-      "image": "./imagenes/gorras/Gorras-1.jpeg"
+      "image": "/landing-page/imagenes/gorras/Gorras-1.jpeg"
     },
     {
       "id": 5,
       "categoryId": "llaveros",
       "title": "Llaveros 1",
       "description": "Producto premium de CR Sublimaciones",
-      "image": "./imagenes/llaveros/Llaveros-1.jpeg"
+      "image": "/landing-page/imagenes/llaveros/Llaveros-1.jpeg"
     },
     {
       "id": 6,
       "categoryId": "llaveros",
       "title": "Llaveros 2",
       "description": "Producto premium de CR Sublimaciones",
-      "image": "./imagenes/llaveros/Llaveros-2.jpeg"
+      "image": "/landing-page/imagenes/llaveros/Llaveros-2.jpeg"
     },
     {
       "id": 7,
       "categoryId": "llaveros",
       "title": "Llaveros 3",
       "description": "Producto premium de CR Sublimaciones",
-      "image": "./imagenes/llaveros/Llaveros-3.jpeg"
+      "image": "/landing-page/imagenes/llaveros/Llaveros-3.jpeg"
     },
     {
       "id": 8,
       "categoryId": "llaveros",
       "title": "Llaveros 4",
       "description": "Producto premium de CR Sublimaciones",
-      "image": "./imagenes/llaveros/Llaveros-4.jpeg"
+      "image": "/landing-page/imagenes/llaveros/Llaveros-4.jpeg"
     },
     {
       "id": 9,
       "categoryId": "llaveros",
       "title": "Llaveros 5",
       "description": "Producto premium de CR Sublimaciones",
-      "image": "./imagenes/llaveros/Llaveros-5.jpeg"
+      "image": "/landing-page/imagenes/llaveros/Llaveros-5.jpeg"
     },
     {
       "id": 10,
       "categoryId": "remeras",
       "title": "Remeras 1",
       "description": "Producto premium de CR Sublimaciones",
-      "image": "./imagenes/remeras/Remeras-1.jpeg"
+      "image": "/landing-page/imagenes/remeras/Remeras-1.jpeg"
     },
     {
       "id": 11,
       "categoryId": "remeras",
       "title": "Remeras 2",
       "description": "Producto premium de CR Sublimaciones",
-      "image": "./imagenes/remeras/Remeras-2.jpeg"
+      "image": "/landing-page/imagenes/remeras/Remeras-2.jpeg"
     },
     {
       "id": 12,
       "categoryId": "remeras",
       "title": "Remeras 3",
       "description": "Producto premium de CR Sublimaciones",
-      "image": "./imagenes/remeras/Remeras-3.jpeg"
+      "image": "/landing-page/imagenes/remeras/Remeras-3.jpeg"
     },
     {
       "id": 13,
       "categoryId": "remeras",
       "title": "Remeras 4",
       "description": "Producto premium de CR Sublimaciones",
-      "image": "./imagenes/remeras/Remeras-4.jpeg"
+      "image": "/landing-page/imagenes/remeras/Remeras-4.jpeg"
     },
     {
       "id": 14,
       "categoryId": "remeras",
       "title": "Remeras 5",
       "description": "Producto premium de CR Sublimaciones",
-      "image": "./imagenes/remeras/Remeras-5.jpeg"
+      "image": "/landing-page/imagenes/remeras/Remeras-5.jpeg"
     },
     {
       "id": 15,
       "categoryId": "set de jardín",
       "title": "Set De Jardín 1",
       "description": "Producto premium de CR Sublimaciones",
-      "image": "./imagenes/set de jardín/Set de jardín-1.jpeg"
+      "image": "/landing-page/imagenes/set de jardín/Set de jardín-1.jpeg"
     },
     {
       "id": 16,
       "categoryId": "set de jardín",
       "title": "Set De Jardín 2",
       "description": "Producto premium de CR Sublimaciones",
-      "image": "./imagenes/set de jardín/Set de jardín-2.jpeg"
+      "image": "/landing-page/imagenes/set de jardín/Set de jardín-2.jpeg"
     },
     {
       "id": 17,
       "categoryId": "sticker",
       "title": "Sticker 1",
       "description": "Producto premium de CR Sublimaciones",
-      "image": "./imagenes/sticker/Sticker-1.jpeg"
+      "image": "/landing-page/imagenes/sticker/Sticker-1.jpeg"
     },
     {
       "id": 18,
       "categoryId": "sticker",
       "title": "Sticker 2",
       "description": "Producto premium de CR Sublimaciones",
-      "image": "./imagenes/sticker/Sticker-2.jpeg"
+      "image": "/landing-page/imagenes/sticker/Sticker-2.jpeg"
     },
     {
       "id": 19,
       "categoryId": "sticker",
       "title": "Sticker 3",
       "description": "Producto premium de CR Sublimaciones",
-      "image": "./imagenes/sticker/Sticker-3.jpeg"
+      "image": "/landing-page/imagenes/sticker/Sticker-3.jpeg"
     },
     {
       "id": 20,
       "categoryId": "sticker",
       "title": "Sticker 4",
       "description": "Producto premium de CR Sublimaciones",
-      "image": "./imagenes/sticker/Sticker-4.jpeg"
+      "image": "/landing-page/imagenes/sticker/Sticker-4.jpeg"
     },
     {
       "id": 21,
       "categoryId": "tazas",
       "title": "Tazas 1",
       "description": "Producto premium de CR Sublimaciones",
-      "image": "./imagenes/tazas/Tazas-1.jpeg"
+      "image": "/landing-page/imagenes/tazas/Tazas-1.jpeg"
     },
     {
       "id": 22,
       "categoryId": "tazas",
       "title": "Tazas 2",
       "description": "Producto premium de CR Sublimaciones",
-      "image": "./imagenes/tazas/Tazas-2.jpeg"
+      "image": "/landing-page/imagenes/tazas/Tazas-2.jpeg"
     },
     {
       "id": 23,
       "categoryId": "tazas",
       "title": "Tazas 3",
       "description": "Producto premium de CR Sublimaciones",
-      "image": "./imagenes/tazas/Tazas-3.jpeg"
+      "image": "/landing-page/imagenes/tazas/Tazas-3.jpeg"
     },
     {
       "id": 24,
       "categoryId": "tazas",
       "title": "Tazas 4",
       "description": "Producto premium de CR Sublimaciones",
-      "image": "./imagenes/tazas/Tazas-4.jpeg"
+      "image": "/landing-page/imagenes/tazas/Tazas-4.jpeg"
     },
     {
       "id": 25,
       "categoryId": "tazas",
       "title": "Tazas 5",
       "description": "Producto premium de CR Sublimaciones",
-      "image": "./imagenes/tazas/Tazas-5.jpeg"
+      "image": "/landing-page/imagenes/tazas/Tazas-5.jpeg"
     },
     {
       "id": 26,
       "categoryId": "tazas",
       "title": "Tazas 6",
       "description": "Producto premium de CR Sublimaciones",
-      "image": "./imagenes/tazas/Tazas-6.jpeg"
+      "image": "/landing-page/imagenes/tazas/Tazas-6.jpeg"
     },
     {
       "id": 27,
       "categoryId": "tazas",
       "title": "Tazas 7",
       "description": "Producto premium de CR Sublimaciones",
-      "image": "./imagenes/tazas/Tazas-7.jpeg"
+      "image": "/landing-page/imagenes/tazas/Tazas-7.jpeg"
     }
   ]
 }
